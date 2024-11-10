@@ -43,8 +43,8 @@ const Contact = () => {
           {}
           <div className="xl:h-[54%] order-2 xl:order-none">
             <form className='flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl'>
-              <h3 className='text-4xl text-accent'>Let's work together</h3>
-              <p className="text-white/60">Ready to bring your ideas to life? Let’s collaborate to create something exceptional! Whether you’re looking for a fresh, dynamic web presence or need support with a project, I’m here to help.
+              <h3 className='text-4xl text-accent'>Lets work together</h3>
+              <p className="text-white/60">Ready to bring your ideas to life? Lets collaborate to create something exceptional! Whether youre looking for a fresh, dynamic web presence or need support with a project, I am here to help.
                  </p>
                  {}
                  <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
@@ -68,7 +68,7 @@ const Contact = () => {
                   </SelectContent>
                  </Select>
                  {}
-                 <Textarea className="h-[200px]" placeholder="Type your message here..."/>
+                 <Textarea className="h-[100px]" placeholder="Type your message here..."/>
             {}
             <Button size="md" className="max-w-40 p-2">Send message</Button>
             </form>
